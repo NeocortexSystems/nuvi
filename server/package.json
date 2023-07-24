@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for the React chat and map application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.12.3",
+    "pg": "^8.6.0"
+  }
+}

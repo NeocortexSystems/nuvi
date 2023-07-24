@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.App .chat {
+  flex: 1;
+  overflow: auto;
+  border-right: 1px solid #ddd;
+}
+
+.App .map {
+  flex: 2;
+  position: relative;
+}
